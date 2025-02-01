@@ -1,0 +1,14 @@
+h1 {
+    margin-top: 40px;
+    /* 상단 간격 */
+    margin-bottom: 40px;
+    /* 하단 간격 */
+}
+
+.form-row,
+.form-group,
+.form-check,
+.custom-control {
+    margin-bottom: 20px;
+    /* 각 요소 간의 하단 간격 */
+}

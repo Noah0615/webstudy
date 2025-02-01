@@ -1,0 +1,19 @@
+{
+  "name": "webstudy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noah0615/webstudy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noah0615/webstudy/issues"
+  },
+  "homepage": "https://github.com/Noah0615/webstudy#readme",
+  "description": ""
+}
