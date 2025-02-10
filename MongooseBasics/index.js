@@ -8,6 +8,10 @@ mongoose.connect('mongodb://127.0.0.1:27017/movieApp')
         console.log(err);
     });
 
+<<<<<<< Updated upstream
+=======
+// 스키마 정의
+>>>>>>> Stashed changes
 const movieSchema = new mongoose.Schema({
     title: String,
     year: Number,
@@ -16,6 +20,7 @@ const movieSchema = new mongoose.Schema({
 });
 
 const Movie = mongoose.model('Movie', movieSchema);
+<<<<<<< Updated upstream
 
 // // const amadeus = new Movie({ title: 'Amadeus', year: 1986, score: 9.2, rating: 'R' });
 
@@ -58,3 +63,6 @@ async function removeDuplicates() {
 }
 
 // removeDuplicates();
+=======
+const amadeus = new Movie({ title: 'Amadeus', year: 1986, score: 9.2, rating: 'R' });
+>>>>>>> Stashed changes
